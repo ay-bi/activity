@@ -71,8 +71,8 @@ background-color:black;
     
     
     .fibobox input{
-        height:30px;
-        width:420px;
+        max-height:30px;
+        max-width:420px;
         font-family: "NoirRegular";
         color: white;
         border-color: white;
