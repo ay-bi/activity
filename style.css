@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color:black;
+}
+@font-face{
+    font-family: "NoirRegular";
+    src:url("NoirStd-Regular.ttf");
+  
+  }
+  
+  @font-face{
+    font-family: "NoirBold";
+    src:url("NoirPro-Bold.ttf");}
+
+.fibo{
+    background-color:black;
+      
+     
+}
+.main{
+    background-color:rgba(255,223,186);
+}
+.fibobox{
+    max-width:1024px;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    border-style: groove; 
+    border-color:rgb(235, 59, 126);
+    border-radius: 30px;
+    box-shadow: 0 0 12px #f7a0da;
+    float:center;
+    
+    
+     
+    }
+    .fibobox input{
+    height:30px;
+    width:450px;  
+    
+    
+    }
+    
+    .fibo h1{
+        font-size: 60px;
+    text-align:center;
+        color:white;
+        border-color:rgb(235, 59, 126);
+    text-shadow: 0 0 12px #e083c1;
+        font-family: "NoirRegular";
+       
+        
+    
+    }
+    
+    .fibo h4{
+        font-size: 15px;
+    text-align:center;
+    color:white;
+    border-color:rgb(235, 59, 126);
+    text-shadow: 0 0 12px #e083c1;
+        font-family: "NoirRegular";
+        
+    
+    }
+
+    
+    
+    .fibobox input{
+        height:30px;
+        width:420px;
+        font-family: "NoirRegular";
+        color: white;
+        border-color: white;
+        border-style:solid;
+        border-radius: 7px;
+       
+        }
+    
+    .click input{
+      justify-content:center;
+    background-color:rgb(241, 131, 217);
+      width:210px;
+      height:40px;
+      text-align:center;
+      border:0px;
+      color:rgb(17, 17, 17);
+      border-radius:10px;
+      font-family: "NoirBold";
+      border-color: #69033f;
+      box-shadow: 0 0 10px #e4197e;
+    }
+
+    .result output{
+color: white;
+font-size:20px ;
+
+
+    }
+   

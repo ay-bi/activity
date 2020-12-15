@@ -1,0 +1,77 @@
+<!DOCTYPE html>	
+<html>
+<head>
+	
+	<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+	<body>    
+	<main>
+        <div class="fibo" id="fibo">
+            <br>
+             <br>
+             <br>
+            <div class="fibobox">
+                 <h1>FIBONACCI   SEQUENCE</h1>
+                 <br>
+             <br>
+            <h4>Input A Range Of Number :</h4>
+            <br><br>
+    <center><input type="number" id='InputNo'value='' placeholder="please type a positive number only" required autofocus/></center>
+            <br><br><br>
+            <div class="click">
+                <center> <input type="button" onclick='clear_now()' value="CLEAR">
+                    <input type="button" onclick='go()'  value="OKAY"/>      
+            </center>
+            <br><br>
+        </div>
+            <h4>Fibonacci Sequence</h4>
+            <br><br>
+           <div class="result">
+           <center> <output type="number" id="series" ></center>
+            </div>
+            </div>
+             
+        </div>
+        <script>
+ 
+            function go() {
+            
+               var ivy, vy = 0, iv = 1, aybi, i;
+               var value_ivy = document.getElementById("InputNo").value
+               var ivy = Number(value_ivy);
+            
+              for ( i = 0 ; i < ivy ; i++ )
+               {
+                  if ( i <= 1 )
+                     aybi = i;
+                  else
+                  {
+                     aybi = vy + iv;
+                     vy = iv;
+                     iv = aybi;
+                  }
+            
+              
+             document.getElementById('series').innerHTML += + aybi + "<br>";
+               
+            }
+               
+            }
+              function clear_now()
+              {
+              document.getElementById('series').innerHTML="";
+              document.getElementById('InputNo').value="";
+              }   
+             </script>
+            
+        </main>
+		
+            
+            </div>        
+    
+	</body>
+
+
+</html>
